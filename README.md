@@ -6,7 +6,7 @@
 ## General info
 
 A gym website showcasing my skills on styles and animation. Built using Next.js for server-side rendering and optimized performance.
-
+live link: https://gym-website-assignment.vercel.app
 <img src="https://github.com/user-attachments/assets/80f15eae-0a4e-4479-9030-4186dcea73ad" height="225" >
 
 
