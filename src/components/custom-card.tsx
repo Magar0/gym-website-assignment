@@ -10,11 +10,11 @@ interface CustomCardProps {
 const CustomCard = ({ title, description, img }: CustomCardProps) => {
   return (
     <div className="w-96 text-center">
-      <div>
+      <div className="overflow-hidden rounded-lg">
         {img && (
           <Image
             width={400}
-            className="m-auto h-[250px] rounded-lg"
+            className="m-auto h-[250px] rounded-lg transition-all duration-300 hover:scale-110"
             src={img}
             alt="img"
           />

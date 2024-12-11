@@ -18,7 +18,7 @@ const ReviewCrads = ({ title, description, rating }: ReviewCardProps) => {
   const totalStar = 5;
 
   return (
-    <Card className="h-full">
+    <Card className="h-full transition-all duration-300 hover:scale-105">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>

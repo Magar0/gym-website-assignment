@@ -1,6 +1,6 @@
 import images from "./images";
 
-export const cardsData = [
+export const CARDS_DATA = [
   {
     id: 1,
     title: "Effortless Workout Logging",
@@ -39,7 +39,7 @@ export const cardsData = [
   },
 ];
 
-export const alternateStepsData = [
+export const ALTERNATE_STEPS = [
   {
     id: 1,
     title: "Click on Get Started",
@@ -70,7 +70,7 @@ export const alternateStepsData = [
   },
 ];
 
-export const reviewData = [
+export const REVIEWS = [
   {
     id: 1,
     title: "Best Fitness App!",
@@ -115,7 +115,7 @@ export const reviewData = [
   },
 ];
 
-export const accordianData = [
+export const ACCORDIANS = [
   {
     id: 1,
     title: "How do I log my workouts?",
@@ -141,3 +141,40 @@ export const accordianData = [
       "The app offers workout logging, rep counting, calorie tracking, and progress reviews.",
   },
 ];
+
+export const CLIENTS = [
+  { alt: "client1", logo: images.client1 },
+  { alt: "client2", logo: images.client2 },
+  { alt: "client3", logo: images.client3 },
+  { alt: "client4", logo: images.client4 },
+  { alt: "client5", logo: images.client5 },
+];
+
+export const PRICING_CARDS = [
+  {
+    planType: "Free Plan",
+    price: "0",
+    description: "Limited block trials  for teams",
+    highlightFeature: "",
+    features: [
+      "Unlimited blocks for teams",
+      "Unlimited file uploads",
+      "30 day page history",
+      "Invite 2 guests",
+    ],
+  },
+  {
+    planType: "Pro Plan",
+    price: "12.99",
+    description: "Billed annually. $17 billed monthly",
+    highlightFeature: "Everything in free +",
+    features: [
+      "Unlimited blocks for teams",
+      "Unlimited file uploads",
+      "1 year day page history",
+      "Invite 10 guests",
+    ],
+  },
+];
+
+export const PRICING_PLANS = { proplan: "Pro Plan", freeplan: "Free Plan" };
