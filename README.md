@@ -2,7 +2,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [API Endpoints](#api-endpoints)
 
 ## General info
 
