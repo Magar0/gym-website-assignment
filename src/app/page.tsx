@@ -1,8 +1,7 @@
-import { ALTERNATE_STEPS, CARDS_DATA, PRICING_CARDS } from "@/lib/constants";
+import { ALTERNATE_STEPS } from "@/lib/constants";
 import AlternateSteps from "../components/alternate-steps";
 import { CarouselComp } from "@/components/carousel";
 import { AccordionComp } from "@/components/accordian";
-import TypingText from "@/components/typing-text";
 import ScrollViewCard from "@/components/ScrollViewCards";
 import Partners from "@/components/partners";
 import PricingDiv from "@/components/pricingdiv";

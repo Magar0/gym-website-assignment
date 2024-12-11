@@ -1,7 +1,6 @@
 import { PRICING_CARDS, PRICING_PLANS } from "@/lib/constants";
 import React from "react";
 import CustomCard2 from "./custom-card2";
-import { cn } from "@/lib/utils";
 import { CardContent, CardTitle } from "./ui/card";
 import { CheckIcon, Diamond } from "lucide-react";
 import { Button } from "./ui/button";
@@ -19,8 +18,9 @@ const PricingDiv = () => {
         </p>
       </div>
       <div className="mt-10 flex flex-col-reverse items-center justify-center gap-4 sm:flex-row sm:items-stretch">
-        {PRICING_CARDS.map((card) => (
+        {PRICING_CARDS.map((card, index) => (
           <CustomCard2
+            key={index}
             className="relative w-[300px] rounded-2xl from-transparent via-gray-400 to-gray-500 shadow-lg transition-all duration-300 hover:z-10 hover:translate-x-10 hover:translate-y-10 hover:scale-110"
             cardHeader={
               <CardTitle className="text-2xl font-semibold">

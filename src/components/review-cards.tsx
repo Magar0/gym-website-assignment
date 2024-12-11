@@ -1,6 +1,5 @@
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -26,6 +25,7 @@ const ReviewCrads = ({ title, description, rating }: ReviewCardProps) => {
       <CardFooter>
         {Array.from({ length: totalStar }, (_, index) => (
           <Star
+            key={index}
             fill={index < rating ? "gold" : "transparent"}
             stroke="#d4d0cf"
             strokeWidth={1}

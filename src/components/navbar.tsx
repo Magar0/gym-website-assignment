@@ -1,13 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import React from "react";
 import PopoverMenu from "./popover-menu";
 import { Button } from "./ui/button";
 
 const Navbar = () => {
-  const pathname = usePathname();
   return (
     <nav className="fixed top-0 z-50 flex w-full items-center justify-around bg-slate-300/70 px-5 py-4 backdrop-blur">
       <div className="text-3xl font-extrabold text-slate-700">GymFluencer</div>

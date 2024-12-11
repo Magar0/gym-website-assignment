@@ -10,7 +10,7 @@ export function AccordionComp() {
   return (
     <Accordion type="single" collapsible className="w-full">
       {ACCORDIANS.map((item, index) => (
-        <AccordionItem value={index + ""}>
+        <AccordionItem value={index + ""} key={index}>
           <AccordionTrigger>{item.title}</AccordionTrigger>
           <AccordionContent>{item.description}</AccordionContent>
         </AccordionItem>
